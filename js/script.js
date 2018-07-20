@@ -2,7 +2,6 @@ $(document).ready(function () {
   $('#lightSlider').lightSlider({
       gallery: false,
       item: 1,
-      loop: true,
       slideMargin: 4,
       easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
       pager: false
@@ -11,7 +10,6 @@ $(document).ready(function () {
   $('#gallerySlider').lightSlider({
       gallery: false,
       item: 5,
-      loop: true,
       slideMargin: 15,
       easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
       pager: false
